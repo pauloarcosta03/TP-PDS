@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #00AD71;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.headerBtn{
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+    color: white;
+}
+
+.headerBtn:hover{
+    background-color: #036140;
+    cursor: pointer;
+}
