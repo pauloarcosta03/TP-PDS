@@ -20,3 +20,15 @@ body{
     background-color: #036140;
     cursor: pointer;
 }
+
+.perfilBtn{
+    background-color: grey;
+    background-image: url("./img/user.png");
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.perfilBtn:hover{
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
