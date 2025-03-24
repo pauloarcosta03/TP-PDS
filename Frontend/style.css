@@ -2,11 +2,18 @@ body{
     margin: 0;
 }
 
+/*----------------------------------------------------
+                     HEADER
+------------------------------------------------------*/
 .header{
     background-color: #00AD71;
     display: flex;
     justify-content: space-between;
     height: 50px;
+}
+
+.header-buttons{
+    margin-left: 5px;
 }
 
 .headerBtn{
@@ -31,4 +38,88 @@ body{
 .perfilBtn:hover{
     background-color: rgb(77, 77, 77);
     cursor: pointer;
+}
+
+/*----------------------------------------------------
+                     FORM POST
+------------------------------------------------------*/
+
+.form{
+    margin-top: 2.5%;
+    width: 80%;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 10px;
+}
+
+.formContent{
+    margin-left: 1%;
+}
+
+.postTypeBtn{
+    margin: 0;
+    background-color: transparent;
+    border: 0;
+    height: 100%;
+    color: black;
+}
+
+.firstpostTypeBtn{
+    border-top-left-radius: 10px;
+}
+
+.postTypeBtn:hover, .selectedType{
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.postTitleInput{
+    width: 25%;
+}
+
+.postDescriptionInput{
+    width: 80%;
+}
+
+.postBtns{
+    display: flex;
+    justify-content: right;
+}
+
+.postBtn{
+    height: 25px;
+    margin: 2px;
+    background-color: #00AD71;
+    border: 0;
+    color: black;
+    border-radius: 20%;
+}
+
+.postBtn:hover{
+    background-color: #036140;
+    cursor: pointer;
+}
+
+
+.attachmentBtn{
+    background-color: transparent;
+}
+
+.attachmentBtn:hover{
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+.attachmentImg{
+    height: 100%;
+}
+
+.separator{
+    background-color: black;
+    height: 2px;
+}
+
+.centered-feed{
+    display: flex;
+    justify-content: space-around;
 }
