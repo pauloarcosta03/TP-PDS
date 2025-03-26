@@ -1,27 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CoresVonitas.css">
-    <title>CondoSocial - Login</title>
-</head>
-<body>
-    <h1>CondoConnect</h1>
-    <div>
-        <h3>Faça parte da nossa grande comunidade!</h3>
-        <input type="text" placeholder="Utilizador">
-        <input type="password" placeholder="Password">
-        <Button>Entrar</Button>
-        <p>Ainda não tem conta? <span>Registe-se aqui!</span></p>
-    </div>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CondoSocial</title>
 
-    <div class="Container">
-        <div id="Connect">
-            <p  id="IPCAText"><b>EST - LESI</b></p>
-            <p id="IPCAText"><b>2024/25</b></p>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-buttons">
+        <button class="headerBtn">Início</button>
+        <button class="headerBtn">Reportar Incidências</button>
+        <button class="headerBtn">Contactos de Emergência</button>
+        <button class="headerBtn">Reuniões</button>
+      </div>
+
+      <img class="perfilBtn" src="./img/user.png" />
+    </header>
+
+    <div class="content"></div>
+  </body>
+</html>
+
+    <div class="content">
+        <div class="centered-feed">
+            <div class="form">
+                <div>
+                    <button class="postTypeBtn firstpostTypeBtn selectedType">Publicação</button>
+                    <button class="postTypeBtn">Evento</button>
+                </div>
+                <div class="separator"></div>
+
+                <div class="formContent">
+                    Titulo <br>
+                    <input type="text" placeholder="Titulo" class="postTitleInput"><br>
+                    Descrição <br>
+                    <textarea class="postDescriptionInput"></textarea>
+                </div>
+                
+                <div class="postBtns">
+                    <button class="postBtn attachmentBtn"><img class="attachmentImg" src="./img/attachment.png"></button>
+                    <button class="postBtn">Publicar</button>
+                </div>
+            </div>
         </div>
-        <img src="img/logo.png" alt="Logo">
+        
     </div>
 </body>
-</html>
